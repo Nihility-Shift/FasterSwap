@@ -59,7 +59,7 @@ namespace FasterSwap
             payload.photonView.TransferOwnership(PhotonNetwork.MasterClient);
 
             //Pick up slot item
-            GrabableObject grabable = socket.Payload.GetComponent<GrabableObject>();
+            Grabbable grabable = socket.Payload.GetComponent<Grabbable>();
             LocalPlayer.Instance.StartCoroutine(instance.DelayedPickupGrabable(grabable));
 
             return false;
