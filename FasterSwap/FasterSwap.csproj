@@ -24,17 +24,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="BepInEx.Core" Version="5.4.21" PrivateAssets="all" />
-    <PackageReference Include="HarmonyX" Version="2.7.0" />
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="1.0.3">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Mono.Cecil" Version="0.11.4" />
-    <PackageReference Include="MonoMod.RuntimeDetour" Version="21.12.13.1" />
-    <PackageReference Include="MonoMod.Utils" Version="21.12.13.1" />
-    <PackageReference Include="VCMT.Thunderstore.DocBuilder" Version="0.2.1" PrivateAssets="all" />
-    <PackageReference Include="VCMT.VoidManager" Version="1.2.5" PrivateAssets="all" />
-    <PackageReference Include="VoidCrew.GameLibs" Version="1.0.3" PrivateAssets="all" />
+    <PackageReference Include="VCMT.Thunderstore.DocBuilder" Version="0.2.4" PrivateAssets="all" />
+    <PackageReference Include="VCMT.VoidManager" Version="1.2.10" PrivateAssets="all" />
+    <PackageReference Include="VoidCrew.GameLibs" Version="1.2.0" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
